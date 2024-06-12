@@ -1,0 +1,118 @@
+    1  ls
+    2  pwd
+    3  -a
+    4  ls-a
+    5  ls -a
+    6  ls
+    7  ls -a
+    8  clear
+    9  ls
+   10  clear
+   11  cd Documents/
+   12  pwd
+   13  ls
+   14  cd ..
+   15  cd Documents
+   16  clear
+   17  mkdir da_course
+   18  cd da_course/
+   19  clear
+   20  touch prova.txt
+   21  ls
+   22  rm prova.txt
+   23  ls
+   24  touch prova.txt
+   25  ls
+   26  echo 'Ciao sono una prova' >> prova.txt
+   27  ls
+   28  cat prova.txt
+   29  nano prova.txt
+   30  cat prova.txt 
+   31  echo 'Ciao sono il secondo file' > prova2.txt
+   32  ls
+   33  cat prova2.txt
+   34  cat prova.txt prova2.txt
+   35  nano prova2
+   36  nano prova2.txt
+   37  cat prova2.txt
+   38  history
+   39  history > history.txt
+   40  nano history.txt
+   41  history 10
+   42  ls >> prova.txt
+   43  cat prova.txt
+   44  help
+   45  mkdir da_repo
+   46  cd da repo/
+   47  cd da_repo/
+   48  ls 
+   49  git init
+   50  ls
+   51  ls-a
+   52  ls -a
+   53  cd .git
+   54  ls
+   55  cat config
+   56  git clone https://github.com/zpqrtbnk/test-repo.git
+   57  ls
+   58  cd test-repo/
+   59  ls -a
+   60  cd da_repo
+   61  cd ..
+   62  cd..
+   63  cd ..
+   64  echo "Ciao sono una modifica" >> sa.txt
+   65  git status
+   66  git add sa.txt
+   67  git status
+   68  git rm --cached sa.txt
+   69  git status
+   70  git commit 
+   71  git add. 
+   72  git add . 
+   73  git status
+   74  git commit
+   75  git commit -m "Prima commit: Aggiunta file sa"
+   76  git config --global user.email "carminati.simone@gmail.com"
+   77    git config --global user.name "Simone395"
+   78  git commit
+   79  cd Documents/
+   80  ls
+   81  cd da_course
+   82  cd da_repo
+   83  echo "sono il 2o file" > second.txt
+   84  git status
+   85  git add . 
+   86  git commit -m "Aggiunta secondo file"
+   87  git log
+   88  git show fa98d5678d4f628832e014ce7c5339c3678286fe
+   89  cd ..
+   90  ls
+   91  cd jk_da_course/
+   92  echo "Ciao sono il file di clone" >> clone,txt
+   93  git commit
+   94  git add. 
+   95  git add . 
+   96  cd jk_da_course 
+   97  ls
+   98  git add . 
+   99  git clone https://github.com/Simone395/jk_da_course.git
+  100  git push origin
+  101  echo "Ciao sono il file di clone" >> clone.txt
+  102  git add .
+  103  git commit -m
+  104  git init
+  105  cd da_repo
+  106  git branch -M main
+  107  git log
+  108  git remote add origin https://github.com/Simone395/jk_da.git
+  109  git push -u origin main
+  110  git log
+  111  echo "ciao" > ciao.txt
+  112  git add . 
+  113  git commit -m "Seconda commit"
+  114  git log
+  115  git push origin main
+  116  git log
+  117  history 
+  118  history > history2.txt
